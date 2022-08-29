@@ -12,40 +12,40 @@
 
 // initialize Randomness library tools
 // must be called before any other functions
-void Rand_Init();
+void Rand__Init();
 
 // set the generator seed for Randomness
 // this can be called instead of Rand_Init()
-void Rand_SetSeed(int seed);
+void Rand__SetSeed(int seed);
 
 /////////////////////////////////////////////////////////////////
 
 // returns random integer
 // [0, RAND_MAX] (inclusive)
-int Rand_I();
+int Rand__I();
 
 // returns random integer in range
 // [min, max] (inclusive)
-int Rand_IRange(int min, int max);
+int Rand__IRange(int min, int max);
 
 /////////////////////////////////////////////////////////////////
 
 // returns random float
 // [0.0f, 1.0f] (inclusive)
-float Rand_F();
+float Rand__F();
 
 // returns random float in range
 // [min, max] (inclusive)
-float Rand_FRange(float min, float max);
+float Rand__FRange(float min, float max);
 
 /////////////////////////////////////////////////////////////////
 
 // returns random double
 // [0.0f, 1.0f] (inclusive)
-float Rand_D();
+float Rand__D();
 
 // returns random double in range
 // [min, max] (inclusive)
-float Rand_DRange(double min, double max);
+float Rand__DRange(double min, double max);
 
 /////////////////////////////////////////////////////////////////
