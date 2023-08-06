@@ -2,7 +2,7 @@
 
 An easy to use random number generator for C/C++.
 The goal of this library is to greatly reduce code duplication for generating random numbers.
-The function behave similarly to the Random package in Java.
+The functions behave similarly to those in the Random package in Java.
 
 
 ## Functions:
