@@ -61,7 +61,7 @@ float Rand__FloatRange(float min, float max)
 /////////////////////////////////////////////////////////////////
 
 // returns random double
-// [0.0f, 1.0f] (inclusive)
+// [0.0, 1.0] (inclusive)
 float Rand__Double()
 {
 	return (double)rand() / RAND_MAX;
