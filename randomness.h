@@ -22,30 +22,30 @@ void Rand__SetSeed(int seed);
 
 // returns random integer
 // [0, RAND_MAX] (inclusive)
-int Rand__I();
+int Rand__Int();
 
 // returns random integer in range
 // [min, max] (inclusive)
-int Rand__IRange(int min, int max);
+int Rand__IntRange(int min, int max);
 
 /////////////////////////////////////////////////////////////////
 
 // returns random float
 // [0.0f, 1.0f] (inclusive)
-float Rand__F();
+float Rand__Float();
 
 // returns random float in range
 // [min, max] (inclusive)
-float Rand__FRange(float min, float max);
+float Rand__FloatRange(float min, float max);
 
 /////////////////////////////////////////////////////////////////
 
 // returns random double
 // [0.0f, 1.0f] (inclusive)
-float Rand__D();
+float Rand__Double();
 
 // returns random double in range
 // [min, max] (inclusive)
-float Rand__DRange(double min, double max);
+float Rand__DoubleRange(double min, double max);
 
 /////////////////////////////////////////////////////////////////
